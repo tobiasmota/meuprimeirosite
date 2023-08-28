@@ -2,72 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tobias Mota</title> <!--Nome que aparece na barra da página-->
-    <link rel="stylesheet" href="index.css">
+    <title>Meu contato</title>
+    <style>
+    *{
+        color: black; 
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   
+
+    
+    </style>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="project.html">Projetos</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contatos</a>
-                </li>
-            </ul>
-        
-        </nav>
-        <header>
-            <div class="center">
-                <img src="./img/eu.jpg"></img>
-            </div>
-            <h1>Tobias Mota</h1>
-            <h2>Desenvolvedor de Software</h2>
-        </header>
-        <main>
-            <section>
-                <h3>Sobre mim</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquam a, beatae neque illum in dicta asperiores quidem sit sed voluptate cumque deserunt quae adipisci modi. Necessitatibus tempora amet veniam.
-                </p>
-            </section>
-            <section>
-                <h3>Formação</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquam a, beatae neque illum in dicta asperiores quidem sit sed voluptate cumque deserunt quae adipisci modi. Necessitatibus tempora amet veniam.
-                </p>
-            </section>
-            <section>
-                <h3>Cursos</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquam a, beatae neque illum in dicta asperiores quidem sit sed voluptate cumque deserunt quae adipisci modi. Necessitatibus tempora amet veniam.
-                </p>
-            </section>
-        </main>
+    <h1>Entre em contato</h1>
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite sua Mensagem:</label> 
+                </th>
+                <td><textarea name="msg" rows"5" cols="40">Digite sua mensagem</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
     
-        <footer>
-            <a href="https://github.com/tobiasmota" target="blank" rel="noopener noreferrer">
-                <img src="./img/github.svg"></img>
-                <p>Github</p>
-            </a>
-            <a href="https://www.linkedin.com/in/tobias-mota-lopes-3a8158254/" target="blank" rel="noopener noreferrer">
-                <img src="./img/linkedin.svg"></img>
-                <p>Linkedin</p>
-            </a>
-            <a href="https://www.youtube.com/channel/UCORxnW5kVfuF3XU4-CxE8Bw" target="blank" rel="noopener noreferrer">
-                <img src="./img/youtube.svg"></img>
-                <p>Youtube</p>
-            </a>
-        </footer>
-    
-    </div>
-   
 </body>
-
 </html>
